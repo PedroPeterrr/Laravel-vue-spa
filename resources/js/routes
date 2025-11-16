@@ -1,0 +1,48 @@
+
+export default [
+  {
+  path: '/:pathMatch(.*)*',
+  name: 'not-found',
+  component: () => import('./components/NotFound.vue')
+  },
+  { 
+    path: '/', 
+    name: 'logo',
+    component: () => import('./components/Logo.vue')
+  },
+  { 
+    path: '/logo-symbol', 
+    name: 'logo-symbol',
+    component: () => import('./components/LogoSymbol.vue')
+  },
+  {
+    path: '/colors',
+    name: 'colors',
+    component: () => import('./components/Colors.vue')
+  },
+  {
+    path: '/typography',
+    name: 'typography',
+    component: () => import('./components/Typography.vue')
+  },
+  {
+    path: '/mascot',
+    name: 'mascot',
+    component: () => import('./components/Mascot.vue')
+  },
+  {
+    path: '/illustrations',
+    name: 'illustrations',
+    component: () => import('./components/Illustrations.vue')
+  },
+  {
+    path: '/loaders-and-animations',
+    name: 'loaders-and-animations',
+    component: () => import('./components/LoadersAndAnimations.vue')
+  },
+  {
+    path: '/wallpapers',
+    name: 'wallpapers',
+    component: () => import('./components/Wallpapers.vue')
+  }
+]
