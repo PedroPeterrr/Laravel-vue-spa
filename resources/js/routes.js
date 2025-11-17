@@ -49,5 +49,10 @@ export default [
     path: '/site-stats',
     name: 'site-stats',
     component: () => import('./components/SiteStats.vue')
+  },
+  {
+    path: '/user-stats',
+    name: 'user-stats',
+    component: () => import('./components/UserStats.vue')
   }
 ]

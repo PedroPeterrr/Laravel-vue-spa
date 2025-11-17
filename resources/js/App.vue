@@ -49,6 +49,9 @@
           <li class="text-sm leading-10">
             <router-link :to="{name:'site-stats'}">Site Stats</router-link>
           </li>
+          <li class="text-sm leading-10">
+            <router-link :to="{name:'user-stats'}">Your Stats</router-link>
+          </li>
         </ul>
       </section>
       </aside>
