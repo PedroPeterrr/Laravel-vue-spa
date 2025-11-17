@@ -44,5 +44,10 @@ export default [
     path: '/wallpapers',
     name: 'wallpapers',
     component: () => import('./components/Wallpapers.vue')
+  },
+  {
+    path: '/site-stats',
+    name: 'site-stats',
+    component: () => import('./components/SiteStats.vue')
   }
 ]

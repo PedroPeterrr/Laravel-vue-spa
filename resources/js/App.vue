@@ -10,37 +10,47 @@
           <ul>
             <li class="text-sm leading-10">
               <router-link :to="{name:'logo'}">Logo</router-link>
-            </li class="text-sm leading-10">
+            </li>
             <li class="text-sm leading-10">
               <router-link :to="{name:'logo-symbol'}">Logo Symbol</router-link>
-            </li class="text-sm leading-10">
+            </li>
             <li class="text-sm leading-10">
               <router-link :to="{name:'colors'}">Colors</router-link>
-            </li class="text-sm leading-10">
+            </li>
             <li class="text-sm leading-10">
               <router-link :to="{name:'typography'}">Typography</router-link>
-            </li class="text-sm leading-10">
+            </li>
           </ul>
         </section>
 
-        <section>
+        <section class="mb-10">
           <h5 class="uppercase font-bold mb-5 text-base">The Doodles</h5>
 
           <ul>
             <li class="text-sm leading-10">
               <router-link :to="{name:'mascot'}">Mascot</router-link>
-            </li class="text-sm leading-10">
+            </li>
             <li class="text-sm leading-10">
               <router-link :to="{name:'illustrations'}">Illustrations</router-link>
-            </li class="text-sm leading-10">
+            </li>
              <li class="text-sm leading-10">
               <router-link :to="{name:'loaders-and-animations'}">Loaders & Animations</router-link>
-            </li class="text-sm leading-10">
+            </li>
             <li class="text-sm leading-10">
               <router-link :to="{name:'wallpapers'}">Wallpapers</router-link>
-            </li class="text-sm leading-10">
+            </li>
           </ul>
         </section>
+
+        <section>
+        <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+
+        <ul>
+          <li class="text-sm leading-10">
+            <router-link :to="{name:'site-stats'}">Site Stats</router-link>
+          </li>
+        </ul>
+      </section>
       </aside>
 
       <div class="primary flex-1">
